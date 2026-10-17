@@ -1,0 +1,15 @@
+include README.md LICENSE NOTICE CHANGELOG.md requirements-lock.txt workspace.json Start.cmd
+recursive-include src *.py *.json *.csv
+recursive-include tests *.py
+recursive-include examples *.json *.md
+recursive-include docs *.md *.json
+recursive-include scripts *.py *.ps1
+recursive-include .streamlit *.toml
+recursive-include .github *.yml
+prune .work
+prune .venv
+prune runs
+prune benchmarks
+prune dist
+global-exclude __pycache__ *.pyc *.pyo
+

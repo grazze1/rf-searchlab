@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rf-searchlab"
+version = "1.0.0"
+description = "Offline radio bearing localization and autonomous signal search simulation"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = ["numpy>=2.5,<3", "scipy>=1.18,<2", "streamlit>=1.64,<2", "plotly>=7.1,<8", "pandas>=3,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10", "pytest-cov>=7,<8", "ruff>=0.16,<1", "mypy>=2.3,<3", "build>=1.6,<2"]
+
+[project.scripts]
+rf-searchlab = "rf_searchlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rf_searchlab*"]
+
+[tool.setuptools.package-data]
+rf_searchlab = ["data/*.json", "data/coverage/*.json", "data/coverage/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.mypy]
+follow_imports = "silent"
+disable_error_code = ["import-untyped"]
+cache_dir = ".work/mypy"
+
+[tool.coverage.run]
+source = ["src/rf_searchlab"]
+data_file = ".work/.coverage"
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+

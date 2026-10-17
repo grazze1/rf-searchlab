@@ -1,0 +1,64 @@
+{
+  "algorithm": "rotating_calipers",
+  "kind": "polygon",
+  "vertices_m": [
+    [
+      49.99999999999984,
+      48.284438740350794
+    ],
+    [
+      51.74497483512806,
+      49.96954135095485
+    ],
+    [
+      50.00000000000016,
+      51.77651568953159
+    ],
+    [
+      48.25502516487195,
+      49.96954135095452
+    ]
+  ],
+  "effective_edges": [
+    3,
+    0,
+    2,
+    1
+  ],
+  "diameter_m": 3.492076949180796,
+  "farthest_pair_m": [
+    [
+      49.99999999999984,
+      48.284438740350794
+    ],
+    [
+      50.00000000000016,
+      51.77651568953159
+    ]
+  ],
+  "cover_flag": false,
+  "circle": {
+    "center_m": [
+      50.0,
+      50.03047721494119
+    ],
+    "radius_m": 1.746038474590398,
+    "max_vertex_distance_squared_m2": 3.048650354749965,
+    "radius_squared_m2": 3.048650354749964,
+    "exact_boundary_checks": 4,
+    "cover_flag": false
+  },
+  "epsilon_deg": 1,
+  "numerical_angle_guard_rad": 2.842170943040401e-14,
+  "geometry_predicates": "exact_on_guarded_binary64_halfplanes",
+  "schema_version": 1,
+  "units": "m / degree",
+  "representation": "pure_wedge_intersection",
+  "mec": {
+    "center_m": [
+      50.0,
+      50.03047721494119
+    ],
+    "radius_m": 1.7460385745903995
+  }
+}

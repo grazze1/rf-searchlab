@@ -1,0 +1,12 @@
+RF-SearchLab
+Copyright 2026 grazze1 and RF-SearchLab contributors
+
+Licensed under the Apache License, Version 2.0.
+See LICENSE for the full license text.
+
+RF-SearchLab includes bearing geometry, coverage certification and planning
+components reorganized into one self-contained Python package.
+
+This distribution contains synthetic examples and mathematical coverage data.
+Third-party dependencies retain their respective licenses. The dependency
+license inventory is provided separately in docs/DEPENDENCIES.md.

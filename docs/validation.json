@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "date": "2026-10-17",
+  "platform": "Windows",
+  "tests_passed": 112,
+  "subtests_passed": 26,
+  "coverage_percent": 80.12808438500659,
+  "critical_coverage": {
+    "geometry.py": 94.83568075117371,
+    "simulator.py": 92.94871794871794,
+    "evaluation.py": 98.0,
+    "algorithms/shared/state.py": 91.75257731958763,
+    "algorithms/route/certificate.py": 100.0,
+    "algorithms/directional/certificate.py": 91.56626506024097,
+    "algorithms/resilient/observation.py": 94.44444444444444
+  },
+  "check_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "wheel_installation": "PASS",
+  "movable_workspace": "PASS",
+  "search": [
+    {
+      "environment": "omni",
+      "strategy": "coverage_route",
+      "status": "completed",
+      "true_count": 3,
+      "cleared": 3,
+      "total_s": 2576.8630885500925
+    },
+    {
+      "environment": "mixed",
+      "strategy": "adaptive_tour",
+      "status": "completed",
+      "true_count": 3,
+      "cleared": 3,
+      "total_s": 6986.0920241359045
+    }
+  ],
+  "recovery": {
+    "status": "completed",
+    "true_count": 3,
+    "cleared": 3,
+    "total_s": 2576.8630885500925
+  },
+  "remote_ci": "NOT_RUN",
+  "interactive_browser": "BLOCKED",
+  "dependency_vulnerability_scan": "NOT_RUN"
+}

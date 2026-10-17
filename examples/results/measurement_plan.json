@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "interpretation": "discrete_candidates_with_future_interval_outer_bounds",
+  "geometry": "conservative_outer_polygon",
+  "assumption": "Sensing omnidirectional; fixed bounded error; FIM ranking only",
+  "precision": "fast",
+  "grid_step_m": 100,
+  "bearing_intervals": 16,
+  "retained": 6,
+  "physical_candidates": 46,
+  "prior_vertices_m": [
+    [
+      1357.619251620842,
+      642.1060850885938
+    ],
+    [
+      1349.118845278469,
+      658.0092268019138
+    ],
+    [
+      -5.193021706872969e-06,
+      -2.42154567331454e-06
+    ],
+    [
+      1370.7879213779881,
+      610.3141039624791
+    ]
+  ],
+  "candidates": [
+    {
+      "position_m": [
+        678.809623,
+        521.053041
+      ],
+      "fim_score": 2.042991614045145e-05,
+      "direction_upper_m": 199.8600850085893,
+      "direction_sample_lower_m": 90.9847406504695,
+      "worst_mec_upper_m": 199.8600850085893,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 855.7328937153248
+    },
+    {
+      "position_m": [
+        578.809623,
+        421.053041
+      ],
+      "fim_score": 4.4325261300925504e-05,
+      "direction_upper_m": 218.91351096563042,
+      "direction_sample_lower_m": 149.56935025045328,
+      "worst_mec_upper_m": 218.91351096563042,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 814.2784382847068
+    },
+    {
+      "position_m": [
+        778.809623,
+        221.053041
+      ],
+      "fim_score": 4.4325261368531486e-05,
+      "direction_upper_m": 228.4684421445673,
+      "direction_sample_lower_m": 129.53189704637973,
+      "worst_mec_upper_m": 228.4684421445673,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 809.5732733805387
+    },
+    {
+      "position_m": [
+        678.809623,
+        421.053041
+      ],
+      "fim_score": 8.171966491703795e-05,
+      "direction_upper_m": 260.08395942894253,
+      "direction_sample_lower_m": 161.5998347379334,
+      "worst_mec_upper_m": 260.08395942894253,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 798.7916979426453
+    },
+    {
+      "position_m": [
+        678.809623,
+        221.053041
+      ],
+      "fim_score": 8.171966349610938e-05,
+      "direction_upper_m": 267.2585609950357,
+      "direction_sample_lower_m": 200.4016622821397,
+      "worst_mec_upper_m": 267.2585609950357,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 800.1532114427353
+    },
+    {
+      "position_m": [
+        678.809623,
+        321.053041
+      ],
+      "fim_score": 0.28101623054515373,
+      "direction_upper_m": 375.45225153495966,
+      "direction_sample_lower_m": 56.53240258741801,
+      "worst_mec_upper_m": 375.45225153495966,
+      "near_upper_m": 5.0,
+      "no_signal": "impossible_under_omnidirectional_minimum_range",
+      "reception_bound_m": 750.9045006037173
+    }
+  ],
+  "recommended": {
+    "position_m": [
+      678.809623,
+      521.053041
+    ],
+    "fim_score": 2.042991614045145e-05,
+    "direction_upper_m": 199.8600850085893,
+    "direction_sample_lower_m": 90.9847406504695,
+    "worst_mec_upper_m": 199.8600850085893,
+    "near_upper_m": 5.0,
+    "no_signal": "impossible_under_omnidirectional_minimum_range",
+    "reception_bound_m": 855.7328937153248
+  },
+  "guarantee": "Bounds concern retained candidates and polygon; not continuous global optimality"
+}
